@@ -51,7 +51,6 @@ header {
 
 .menu-details {
     margin-left: 2rem;
-    font-size: 1.2rem;
 }
 
 .menu-emoji {
@@ -74,20 +73,24 @@ header {
 
 .add-btn {
     border-radius: 50%;
-    align-self: center;
+    /* align-self: center; */
     margin-left: auto;
     font-size: 2rem;
-    border: 1px solid black;
-    height: 50px;
-    width: 50px;
+    border: 1px solid #c0bebe;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     font-family: 'Inter', sans-serif;
     background-color: white;
-    border-color: #c0bebe;
     cursor: pointer;
+}
+
+.fa-regular {
+    font-size: 1.5rem;
 }
 
 .add-btn:hover {
@@ -100,7 +103,6 @@ header {
 
 .checkout-title {
     text-align: center;
-    font-size: 2.5rem;
     margin: 2rem 0;
 }
 
@@ -108,7 +110,6 @@ header {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
-    font-size: 1.5rem;
 }
 
 .remove-btn {
@@ -134,7 +135,6 @@ header {
     margin-top: 1.5rem;
     display: flex;
     border-top: 2px solid black;
-    font-size: 1.5rem;
 }
 
 .total-cost {

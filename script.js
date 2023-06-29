@@ -20,7 +20,7 @@ function render() {
                 <p class="menu-ingredients">${menu.ingredients}</p>
                 <h3 class="menu-price">$${menu.price}</h3>
             </div>
-            <button class="add-btn" id="add-btn" data-id="${menu.id}">+</button> 
+            <button class="add-btn" id="add-btn" data-id="${menu.id}"><i class="fa-regular fa-plus" id="add-btn" data-id="${menu.id}"></i></button> 
         </div>
         <hr>`
     })
