@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Solo Project - Mobile Ordering App</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+         <img src="images/header-bg.png" alt="">
+         <div class="header-name">
+            <h1>Jimmy's Diner</h1>
+            <p>The best burgers and pizzas in town.</p>
+         </div>
+    </header>
+
+    <div class="menu-container" id="menu-container">
+     
+
+    </div>
+    
+
+    <div class="checkout-section menu-container" id="checkout-section">
+     
+
+    </div>
+
+
+    <div class="card-form" id="card-form">
+        <form id="form">
+            <div class="form-title">
+                <h1>Enter card details</h1>
+                <button type="button" class="closeModalBtn" id="closeModalBtn">X</button>
+            </div>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="number" name="cardNumber" id="cardNumber" placeholder="Enter card number" required>
+            <input type="number" name="CCV" id="CCV" placeholder="Enter CCV" required>
+            <button class="purchase-btn" id="payBtn">Pay</button>
+        </form>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+

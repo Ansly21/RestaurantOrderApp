@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    position: relative;
+}
+
+.header-name {
+    color: red;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    color: white;
+}
+
+.header-name h1 {
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+}
+
+.header-name p {
+    margin: 0;
+    font-size: 1.5rem
+}
+
+.menu-container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-details {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.menu-emoji {
+    font-size: 80px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.menu-name {
+    margin-bottom: 0.4rem;
+}
+
+.menu-ingredients {
+    margin: 0;
+}
+
+.menu-price {
+    margin-top: 0.4rem;
+}
+
+.add-btn {
+    border-radius: 50%;
+    align-self: center;
+    margin-left: auto;
+    font-size: 2rem;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    border-color: #c0bebe;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: lawngreen;
+}
+
+.checkout-section {
+    display: none;
+}
+
+.checkout-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.checkout-item {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.remove-btn {
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    text-decoration: underline;
+}
+
+.checkout-item h2, .checkout-item p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.checkout-price {
+    margin-left: auto;
+}
+
+.total-container {
+    margin-top: 1.5rem;
+    display: flex;
+    border-top: 2px solid black;
+    font-size: 1.5rem;
+}
+
+.total-cost {
+    margin-left: auto;
+}
+
+.purchase-btn {
+    background-color: #16DB99;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.purchase-btn:hover {
+    background-color: hsl(160, 100%, 34%);
+}
+
+
+.card-form {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+    background: rgba(0, 4, 8, 0.18);
+    box-shadow: 5px 5px 80px 20px gray; 
+
+}
+
+form {
+    width: 500px;
+    margin-top: 3rem;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.form-title {
+    display: flex;
+    align-items: center;
+}
+
+.form-title button{
+    margin-left: auto;
+}
+
+form h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    display: flex;
+    border: 1px solid #757575;
+    margin-bottom: 1rem;
+    padding: 1.3rem 1rem;
+    border-radius: 3px;
+    font-weight: 400;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.confirmation-message {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #ECFDF5;
+    padding: 1rem;
+    color: #065F46;
+    margin-top: 3rem;
+}
+
+.closeModalBtn {
+    background-color: rgb(240, 72, 72);
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
