@@ -49,6 +49,10 @@ header {
     align-items: center;
 }
 
+.menu img {
+    width: 150px;
+}
+
 .menu-details {
     margin-left: 2rem;
 }

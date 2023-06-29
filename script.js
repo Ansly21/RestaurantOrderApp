@@ -1,20 +1,21 @@
 import { menuArray } from "./data.js"
 const menuDiv = document.getElementById("menu-container")
 const checkoutDiv = document.getElementById("checkout-section")
-let cardForm = document.getElementById('card-form')
-let closeModalBtn = document.getElementById("closeModalBtn")
-let formPay = document.getElementById("form")
-let name = document.getElementById("name")
+const cardForm = document.getElementById('card-form')
+const closeModalBtn = document.getElementById("closeModalBtn")
+const formPay = document.getElementById("form")
+const name = document.getElementById("name")
 let checkoutCart = []
 
 
+//Renders the menu name, picture, ingredients price, and add button
 function render() {
     let menuHtml = ``
 
     menuArray.forEach(function(menu) {
         menuHtml += `
         <div class="menu">
-            <h2 class="menu-emoji">${menu.emoji}</h2>
+            <img src=${menu.img} alt=${menu.alt}>
             <div class="menu-details">
                 <h2 class="menu-name">${menu.name}</h2>
                 <p class="menu-ingredients">${menu.ingredients}</p>
@@ -27,18 +28,17 @@ function render() {
     menuDiv.innerHTML = menuHtml
 }
 
-
+//Listens for click anywhere in the document then gives the id of the button click to the function searchMenu() / removeItem()
 document.addEventListener("click", function(e) {
     if(e.target.dataset.id) {
         searchMenu(e.target.dataset.id)
     } else if (e.target.dataset.remove) {
         removeItem(e.target.dataset.remove)
     }else {
-
     }
 })
 
-
+//Targets the menu item that has been clicked and pushes it to the checkoutCart array
 function searchMenu(menuId) {
     const filteredMenu = menuArray.filter(function(singleMenu) {
         return singleMenu.id == menuId
@@ -51,7 +51,7 @@ function searchMenu(menuId) {
     }
 }
 
-
+//Renders the checkout section html
 function checkoutSection() {
     let totalCost = 0;
     let checkoutHtml = ``
@@ -69,7 +69,6 @@ function checkoutSection() {
         <div class="checkout-item">
         <h2>${addItemToCheckout.name}</h2>
         <button class="remove-btn" data-remove=${incrementingNum}>remove</button>
-  
         <h2 class="checkout-price">$${addItemToCheckout.price}</h2>
     </div>`
     })
@@ -92,11 +91,11 @@ function checkoutSection() {
     let completeOrderBtnId = document.getElementById("complete-order-btn")
     enableClick(completeOrderBtnId)
  
-   checkoutDiv.style.display = "block"
+    checkoutDiv.style.display = "block"
 }
 
 
-/* REMOVE */
+// Removes the item that has been clicked in the checkout section
 function removeItem(id) {
         if (id == 1) {
             checkoutCart.splice(id-1, id)  
@@ -111,19 +110,23 @@ function removeItem(id) {
         }
 }
 
-
+//First gets the id parameter from checkoutSection() then uses that parameter for the addEventLister.
+// This function will make the modal appear after clicking the complete order button
 function enableClick(id) {
     id.addEventListener("click", () => {
         cardForm.style.display = "flex"
     })
 }
 
-
+// Button for closing the modal
 closeModalBtn.addEventListener("click", function() {
     cardForm.style.display = "none"
 })
 
-
+// When the user submits the form, it will add an innerHTML and gets the value in the input for name
+//Prevents refresh on submit
+//Resets the cart
+//Resets the inputs
 formPay.addEventListener("submit", function(e) {
     cardForm.style.display = "none"
     let paidHtml = `<div class="confirmation-message">
