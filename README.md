@@ -10,4 +10,4 @@ Images Links reference:
 <a href="https://www.vecteezy.com/free-vector/burger">Burger Vectors by Vecteezy</a>
 <a href="https://www.vecteezy.com/free-vector/beer">Beer Vectors by Vecteezy</a>
 
-![Website previewww](/images/MobileAppPreview.png)
+![Website preview](/images/MobileAppPreview.png)
