@@ -19,7 +19,7 @@ export const menuArray = [
         name: "Beer",
         ingredients: ["grain, hops, yeast, water"],
         price: 10,
-        img: "./images/beer.png",
+        img: "beer.png",
         alt: "Beer from vecteezy.com",
         id: 2
     }
