@@ -11,7 +11,7 @@ export const menuArray = [
         name: "Hamburger",
         ingredients: ["beef", "cheese", "lettuce"],
         price: 12,
-        img: "/images/burger.jpg",
+        img: "../images/burger.jpg",
         alt: "Burger from vecteezy.com",
         id: 1
     },
@@ -19,7 +19,7 @@ export const menuArray = [
         name: "Beer",
         ingredients: ["grain, hops, yeast, water"],
         price: 10,
-        img: "/images/beer.jpg",
+        img: "images/beer.png",
         alt: "Beer from vecteezy.com",
         id: 2
     }
