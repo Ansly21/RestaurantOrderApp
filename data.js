@@ -11,7 +11,7 @@ export const menuArray = [
         name: "Hamburger",
         ingredients: ["beef", "cheese", "lettuce"],
         price: 12,
-        img: "/images/burger.png",
+        img: "/assets/burger.png",
         alt: "Burger from vecteezy.com",
         id: 1
     },
