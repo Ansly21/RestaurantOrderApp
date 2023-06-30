@@ -3,7 +3,7 @@ export const menuArray = [
         name: "Pizza",
         ingredients: ["pepperoni", "mushrom", "mozarella"],
         price: 15,
-        img: images/pizza.png,
+        img: "https://static.vecteezy.com/system/resources/previews/007/404/909/large_2x/delicious-burger-icon-cartoon-illustration-cartoon-clipart-free-vector.jpg",
         alt: "Pizza from vecteezy.com",
         id: 0
     },
