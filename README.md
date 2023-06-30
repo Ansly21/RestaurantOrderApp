@@ -6,7 +6,7 @@ Deployed link: <a href="https://mobile-restaurant-order-app-ansly.netlify.app/" 
 
 Images Links reference:
 
-<a href="https://www.vecteezy.com/free-vector/burger">Burger Vectors by Vecteezy</a>
+<a href="https://www.vecteezy.com/free-vector/pizza">Pizza Vectors by Vecteezy</a>
 <a href="https://www.vecteezy.com/free-vector/burger">Burger Vectors by Vecteezy</a>
 <a href="https://www.vecteezy.com/free-vector/beer">Beer Vectors by Vecteezy</a>
 
