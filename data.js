@@ -3,7 +3,7 @@ export const menuArray = [
         name: "Pizza",
         ingredients: ["pepperoni", "mushrom", "mozarella"],
         price: 15,
-        img: "images/header-bg.png",
+        img: "images/pizza.png",
         alt: "Pizza from vecteezy.com",
         id: 0
     },
@@ -11,7 +11,7 @@ export const menuArray = [
         name: "Hamburger",
         ingredients: ["beef", "cheese", "lettuce"],
         price: 12,
-        img: "../images/burger.jpg",
+        img: "/images/burger.png",
         alt: "Burger from vecteezy.com",
         id: 1
     },
@@ -19,7 +19,7 @@ export const menuArray = [
         name: "Beer",
         ingredients: ["grain, hops, yeast, water"],
         price: 10,
-        img: "images/beer.png",
+        img: "./images/beer.png",
         alt: "Beer from vecteezy.com",
         id: 2
     }
