@@ -4,7 +4,7 @@ A restaurant ordering app, where you can add/remove items in checkout and a conf
 
 Deployed link: <a href="https://mobile-restaurant-order-app-ansly.netlify.app/" target="_blank">Mobile Restaurant Ordering App</a>
 
-Images Links:
+Images Links reference:
 
 <a href="https://www.vecteezy.com/free-vector/burger">Burger Vectors by Vecteezy</a>
 <a href="https://www.vecteezy.com/free-vector/burger">Burger Vectors by Vecteezy</a>
