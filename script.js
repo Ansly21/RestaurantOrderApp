@@ -15,7 +15,7 @@ function render() {
     menuArray.forEach(function(menu) {
         menuHtml += `
         <div class="menu">
-            <img src=${menu.img} alt=${menu.alt}>
+            <img src=${menu.img} alt=${menu.alt} />
             <div class="menu-details">
                 <h2 class="menu-name">${menu.name}</h2>
                 <p class="menu-ingredients">${menu.ingredients}</p>
